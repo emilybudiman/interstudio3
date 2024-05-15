@@ -5,7 +5,7 @@ const dog = [
     borough: "Brooklyn",
     img: "images/pitbullmix.png",
     cover: "images/_pitbullmix.png",
-    percent: "4.6",
+    percent: "4.6%",
 },
 {
     name: "Pit Bull Terrier",
@@ -13,7 +13,7 @@ const dog = [
     borough: "Brooklyn",
     img: "images/pitbullterrier.png",
     cover: "images/_pitbullterrier.png",
-    percent: "4.2",
+    percent: "4.2%",
 },
 {
     name: "Beagle",
@@ -21,7 +21,7 @@ const dog = [
     borough: "Queens",
     img: "images/beagle.png",
     cover: "images/_beagle.png",
-    percent: "2.1",
+    percent: "2.1%",
 },
 {
     name: "Bulldog",
@@ -29,7 +29,7 @@ const dog = [
     borough: "Manhattan",
     img: "images/bulldog.png",
     cover: "images/_bulldog.png",
-    percent: "3.5",
+    percent: "3.5%",
 },
 {
     name: "Chihuahua",
@@ -37,7 +37,7 @@ const dog = [
     borough: "The Bronx",
     img: "images/chihuahua.png",
     cover: "images/_chihuahua.png",
-    percent: "7.5",
+    percent: "7.5%",
 },
 {
     name: "German Shepherd",
@@ -45,7 +45,7 @@ const dog = [
     borough: "Queens",
     img: "images/germanshepherd.png",
     cover: "images/_germanshepherd.png",
-    percent: "6.8",
+    percent: "6.8%",
 },
 {
     name: "Husky",
@@ -53,7 +53,7 @@ const dog = [
     borough: "Queens",
     img: "images/husky.png",
     cover: "images/_husky.png",
-    percent: "4.1",
+    percent: "4.1%",
 },
 {
     name: "Jack Russell Terrier",
@@ -61,7 +61,7 @@ const dog = [
     borough: "Queens",
     img: "images/jackruss.png",
     cover: "images/_jackruss.png",
-    percent: "1.8",
+    percent: "1.8%",
 },
 {
     name: "Labrador Retriever",
@@ -69,7 +69,7 @@ const dog = [
     borough: "Manhattan",
     img: "images/lab.png",
     cover: "images/_lab.png",
-    percent: "4",
+    percent: "4%",
 },
 {
     name: "Maltese",
@@ -77,7 +77,7 @@ const dog = [
     borough: "Queens",
     img: "images/maltese.png",
     cover: "images/_maltese.png",
-    percent: "4.3",
+    percent: "4.3%",
 },
 {
     name: "Pitbull",
@@ -85,7 +85,7 @@ const dog = [
     borough: "The Bronx",
     img: "images/pitbull.png",
     cover: "images/_pitbull.png",
-    percent: "35.6",
+    percent: "35.6%",
 },
 {
     name: "Poodle",
@@ -93,7 +93,7 @@ const dog = [
     borough: "Queens",
     img: "images/poodle.png",
     cover: "images/_poodle.png",
-    percent: "5.3",
+    percent: "5.3%",
 },
 {
     name: "Rottweiler",
@@ -101,7 +101,7 @@ const dog = [
     borough: "Queens",
     img: "images/rottweiler.png",
     cover: "images/_rottweiler.png",
-    percent: "3.3",
+    percent: "3.3%",
 },
 {
     name: "Shih Tzu",
@@ -109,7 +109,7 @@ const dog = [
     borough: "Queens",
     img: "images/shihtzu.png",
     cover: "images/_shihtzu.png",
-    percent: "7.9",
+    percent: "7.9%",
 },
 {
     name: "Yorkshire Terrier",
@@ -117,7 +117,7 @@ const dog = [
     borough: "Queens",
     img: "images/yorkshire.png",
     cover: "images/_yorkshire.png",
-    percent: "4.8",
+    percent: "4.8%",
 },
 ];
 
@@ -165,9 +165,9 @@ const buildDetailDogItem = function (dog, i) {
                 <img src=${dog.img}>
                 <div class="text-info">
                     <h1>${dog.name}</h1>
-                    <h2>${dog.year}</h2>
-                    <h2>${dog.borough}</h2>
-                    <h2>${dog.percent}</h2x>
+                    <h2> Year with most bites: ${dog.year}</h2>
+                    <h2> Borough with most bites: ${dog.borough}</h2>
+                    <h2> Percentage of total bites committed from list: ${dog.percent}</h2x>
                 </div>
             </div>
     </div>`;

@@ -22,10 +22,41 @@ body{
 }
 
 #pop-up-wrapper{
-    background-color: cornflowerblue;
-    position: fixed;
+	display: none;
+    background-color: #bbb5a1;
+    position: absolute;
     height: 100%;
     width: 100%;
+    top: 1px;
+    width: 60%;
+    right: 1px;
+    font-family: monospace;
+    color: #232323;
+    margin-top: 30px;
+    margin-left: 150px;
+}
+
+#pop-up-wrapper img{
+	height: 70vh;
+	align-content: center;
+	justify-content: center;
+}
+
+#pop-up-wrapper h1{
+	font-size: 18px;
+}
+#pop-up-wrapper h2{
+	font-size: 12px;
+}
+
+.text-info{
+	outline-color: #232323;
+	outline-style: solid;
+	outline-width: 1px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	width: 60%;
 }
 .detail-view{
     display: none;
