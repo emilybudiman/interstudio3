@@ -20,6 +20,14 @@ body{
 	outline-style: solid;
 	outline-width: 1px;
 }
+#doggrid img:hover{
+	max-height: 19vh;
+	outline-color: #232323;
+	outline-style: dashed;
+	outline-width: 2px;
+	transform: scale(1.01);
+    transition: 0.1s;
+}
 
 #pop-up-wrapper{
 	display: none;
@@ -28,18 +36,23 @@ body{
     height: 100%;
     width: 100%;
     top: 1px;
-    width: 60%;
+    width: 50%;
     right: 1px;
     font-family: monospace;
     color: #232323;
     margin-top: 30px;
     margin-left: 150px;
+    outline-color: #bbb5a1;
+    outline-style: solid;
+    outline-width: 30px;
+    padding-left: 2px;
 }
 
 #pop-up-wrapper img{
-	height: 70vh;
+	height: 65vh;
 	align-content: center;
 	justify-content: center;
+	padding: 30px;
 }
 
 #pop-up-wrapper h1{
@@ -56,7 +69,8 @@ body{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-left: 20px;
-	width: 60%;
+	padding-right: 20px;
+	width: 70%;
 }
 .detail-view{
     display: none;
