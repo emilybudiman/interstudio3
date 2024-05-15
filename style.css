@@ -8,9 +8,19 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    row-gap: 45px;
-    column-gap: 25px;
+    row-gap: 10px;
+    column-gap: 10px;
+    width: 40%;
+    padding: 20px;
 }
+
+#doggrid img{
+	max-height: 19vh;
+	outline-color: #232323;
+	outline-style: solid;
+	outline-width: 1px;
+}
+
 #pop-up-wrapper{
     display: none;
     background-color: cornflowerblue;

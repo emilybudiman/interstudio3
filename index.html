@@ -3,12 +3,18 @@
     <head>
         <script src="script.js"></script>
         <link rel="stylesheet" href="style.css"/>
+        <script>
 
+            const closePopUp = ()=>{
+                const popUp = document.getElementById("pop-up-wrapper");
+                popUp.style.display = "none"
+                document.body.style.overflow = "scroll";
+            }
+        </script>
     </head>
     
     <body>
-        <div id="doggrid" class="book-container">
-            <div id="welcomeDiv"  style="display:none;" class="answer_list" > WELCOME</div>
+        <div id="doggrid"></div>
 
         <section class="content">
             <img src="images/open.png" style="outline: none;"></img>
