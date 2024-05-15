@@ -1,0 +1,40 @@
+body{
+	background-color: #bbb5a1;
+	background-size: cover;
+	max-height: 100%;
+}
+
+#doggrid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 45px;
+    column-gap: 25px;
+}
+#pop-up-wrapper{
+    display: none;
+    background-color: cornflowerblue;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+.detail-view{
+    display: none;
+}
+
+.definition{
+	color: #bbb5a1;
+	background-color: #232323;
+	width: 27%;
+	padding: 20px;
+	outline-color: #bbb5a1;
+	outline-style: solid;
+	outline-width: 2px;
+	position: absolute;
+	bottom: 150px;
+	left: 50px;
+	box-shadow: 20px 20px #232323, 22px 22px #bbb5a1;
+}
+
